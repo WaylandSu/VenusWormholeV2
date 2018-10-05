@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="EVE, 星战前夜, 虫洞, 查询, 爱神" />
+    <meta name="description" content="晨曦在线虫洞查询工具" />
+    <meta name="author" content="Venus爱神" />
+    
+	<title>爱神虫洞俱乐部V2.0</title>
+    <link rel="stylesheet" href="http://7xnpsv.com1.z0.glb.clouddn.com/main.min.css"></link>
+	<script src="http://lib.sinaapp.com/js/jquery/1.10.1/jquery-1.10.1.min.js"></script>
+	<script src="http://lib.sinaapp.com/js/jquery-ui/1.10.2/jquery-ui.min.js"></script>
+	<script>
+        RES = "./";
+        IMG = "http://7xnpsv.com1.z0.glb.clouddn.com"; //七牛CDN
+        //IMG = "http://venuswormhole-images.stor.sinaapp.com/2";
+        //IMG = "http://wormhole-images.stor.sinaapp.com/2";
+        //IMG = "http://eveonline-images.stor.sinaapp.com/2";
+		//IMG = RES + "Images/";
+	</script>
+</head>
+
+<body onselectstart="return false" style="background: url(http://7xnpsv.com1.z0.glb.clouddn.com/Bkg.gif) no-repeat #040404;">
+<div class="body">
+    
+	<div id="logo">
+		<a href="./index.html"><img src="http://7xnpsv.com1.z0.glb.clouddn.com/Title.png"></img></a>
+	</div>
+    
+    <div style="position:absolute;margin-left:470px;top:30px;">
+        <a href="./Help.html" title="常见问题"><img class="icon" src="http://7xnpsv.com1.z0.glb.clouddn.com/74_64_14.png"/></a>
+    </div>
+
+	<div id="header" style="background: url(http://7xnpsv.com1.z0.glb.clouddn.com/Ver2.0.png) no-repeat;">
+        <a href="http://1.venuswormhole.sinaapp.com" title="回到旧版"><img src="http://7xnpsv.com1.z0.glb.clouddn.com/38_16_125_.png"></a>
+        <a href="http://venuswormhole.duapp.com/3/">新版试用</a><!--<button id="trustbtn">信任本站</button>-->
+	</div> 
+
+	<div id="tabs"><div style="color:yellow;padding:85px 20px 20px 265px;">正在加载中...</div></div>
+    
+    <script src="http://2.eveonline.sinaapp.com/venuswormhole/Scripts/amd20130716.js" data-main="Scripts/main"></script>
+
+    <!--<script>
+        $(function(){ 
+            setTimeout(function(){
+                $("#activities").append(
+                [
+                 "<span style='color:yellow;'>尊敬的玩家你好，我们发现您长期使用本站增强游戏体验，却从来没有为本站捐过一分钱，对于您的这种消极的态度，我们感到非常失望。。。",
+                  "我们决定限制您的频繁使用，希望您好好反省。我们的口号是不捐钱玩你MB。</span></p>",
+                 "<p id='popup' style='' title=''>【招募捐款】因SAE近期调整<a href='http://www.sinacloud.com/index/price.html'>收费策略</a>，",
+                 "导致成本急剧上升。现在本站的费用为：数据库0.02元/小时，应用租金0.1元/天，流量1.5元/GB，防火墙9元/月等，其他费用经过努力已经得到优化降低。",
+                 "本次募集一年的运营费用，约500元左右，满额为止，希望各位玩家朋友们慷慨相助！<a href='#panel-about'>马上捐助</a>(会在捐款列表中留名哦~)<br/>"
+                ].join(""));
+            },5000);
+            //$("#popup").dialog({position:"left",width:340,height:400});
+        });
+    </script>-->
+    
+</div>
+
+<div id="place-holder"></div>
+
+
+<style>
+    body>div[id],
+    body>div[style]
+    {
+        pointer-events:none;
+        opacity:0;
+        filter:alpha(opacity=0);
+    }
+    body>div[class][style]
+    {
+    	pointer-events:auto;
+        opacity:1;
+    }
+    iframe
+    {
+        margin-left:12px;
+    }
+</style>
+
+
+<script>
+    function IsPC() {
+
+        var userAgentInfo = navigator.userAgent.toLowerCase();
+        var Agents = [ "android", "symbian", "phone", "pad", "pod", "mobile"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+	}
+    /*
+    if( window.CCPEVE )
+    {
+        document.write('<script src="http://ji.dazhantai.com/cpv/i.php?z=5808"><\/script>');
+    }
+    */
+    
+</script>
+
+
+<!--
+<script src="http://js2329.lishuanghao.com/cpv/i.php?z=5808"></script>
+<script src="http://www.9lianmeng.com/page/s.php?s=221565&w=250&h=250"></script>-->
+
+<!--<script src="http://ji.dazhantai.com/cpv/i.php?z=5808"></script>-->
+<!--<script src="http://wm.lrswl.com/page/?s=172954"></script>-->
+<!--<script src="http://www.xixiai.net/page/?s=80"></script>-->
+<!--<script src="http://www.9lianmeng.com/page/?s=221199"></script>-->
+
+
+</body>
+
+</html>

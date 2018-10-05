@@ -1,0 +1,10 @@
+name: venuswormhole
+version: 2
+handle:
+- directoryindex: Home.html
+- errordoc:  404 /Home.html
+cron:
+- description: EVE_API_SERVER_STATUS
+  url: ServerAPI/Status.php?update
+  schedule: every 20 mins
+  timezone: Beijing
